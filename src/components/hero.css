@@ -1,0 +1,22 @@
+section {
+  background-image: url(../images/blog-index.jpg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section div {
+  background-color: #4fa9ba;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section div h1 {
+  color: aliceblue;
+  margin: 0;
+}
