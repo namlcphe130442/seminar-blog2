@@ -59,4 +59,4 @@ const displayImage = (body) => {
 const body = document.querySelector("body");
 setInterval(function() {
   displayImage(body);
-},500)
+},300)
