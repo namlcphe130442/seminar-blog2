@@ -10,7 +10,7 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <SEO title="Page two" />
-      <div style={{textAlign: "center"}}>
+      <div style={{textAlign: "center" , minWidth: '80%'}}>
         <h1>{post.title}</h1>
         <p style={{ display: "block" }}>{post.subtille}</p>
       </div>
