@@ -602,6 +602,7 @@ main {
   padding: 60px 15px 60px 15px;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 footer {

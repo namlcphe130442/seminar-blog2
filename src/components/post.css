@@ -3,7 +3,8 @@ article{
   margin: 10px;
   padding: 30px;
   border-radius: 5px;
-  flex: 1;
+  flex: 0 0 100%;
+  max-width: 500px;
 }
 
 .title{
@@ -21,7 +22,7 @@ h2 {
 }
 
 time {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .read-more button {

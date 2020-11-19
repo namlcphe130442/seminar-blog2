@@ -12,7 +12,7 @@ const BlogPost = ({ data }) => {
       <SEO title="Page two" />
       <h1>{post.title}</h1>
       <p>{post.subtille}</p>
-      <img src={post.image.fluid.src}  style={{margin:' auto',marginBottom:'30px'}}/>
+      <img src={post.image.fluid.src} alt={post.title} style={{margin:' auto',marginBottom:'30px'}}/>
       <div className="content">
         <div
           className="body"
